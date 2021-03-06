@@ -1,0 +1,5 @@
+.content { 
+    background: var(--content-color);
+    height: calc(100vh - var(--header-height) - var(--global-padding));
+    padding: var(--global-padding) var(--global-padding) 0;
+}

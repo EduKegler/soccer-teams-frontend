@@ -1,0 +1,29 @@
+.card { 
+    background: var(--card-color);
+    border-radius: 10px;
+}
+
+.card__header { 
+    display: flex;
+    justify-content: space-between;
+    justify-items: center;
+    border-bottom: 1px solid var(--divider-color);
+    color: var(--secondary-color);
+    padding: 1rem 2rem;
+}
+
+.card__title { 
+    
+}
+
+.card__extra { 
+    align-self: center
+}
+
+.card__content { 
+    padding: 1rem 1rem;
+}
+
+.card__footer { 
+    padding: 1rem 2rem;
+}

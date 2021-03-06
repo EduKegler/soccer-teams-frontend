@@ -1,0 +1,47 @@
+.list { 
+    border-radius: 10px;
+    width: 100%;
+}
+
+.list__header { 
+    display: flex;
+    justify-content: space-between;
+    justify-items: center;
+}
+
+.list__title h4 { 
+    margin: 0 0 1rem;
+}
+
+.list__extra { 
+
+}
+
+.list__content { 
+    background: var(--list-bg-color);
+    padding: 1px;
+    border-radius: 5px;
+}
+
+.list__row { 
+    display: flex;
+    background: white;
+    justify-content: space-between;
+    justify-items: center;
+    border-radius: 5px;
+    padding: 0.5rem 1rem;
+    margin: 3px 2px;
+    border: 1px solid white;
+}
+
+.list__row:hover {
+    border: 1px solid var(--primary-color);
+}
+
+.list__key { 
+    
+}
+
+.list__value { 
+
+}

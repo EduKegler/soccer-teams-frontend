@@ -1,0 +1,23 @@
+.dashboard { 
+    display: flex;
+    justify-content: space-between;
+    gap: 2rem;
+}
+
+.dashboard__team { 
+    width: 100%;
+}
+
+.dashboard__team .card{ 
+    height: 100%;
+}
+
+.dashboard__top { 
+    width: 100%;
+}
+
+.dashboard__averages { 
+    display: flex;
+    justify-content: space-between;
+    gap: 2rem;
+}
