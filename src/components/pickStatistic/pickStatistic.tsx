@@ -1,4 +1,5 @@
 import React from 'react';
+import SoccerField from '../soccerField/SoccerField';
 import './pickStatistic.css';
 
 interface PropsFromParent { 
@@ -7,9 +8,8 @@ interface PropsFromParent {
 
 const PickStatistic = React.memo((props: PropsFromParent) => {
   return (
-    <div className="picks">
-        <div className='picks__circle-divider' />
-        <div className='picks__vertical-divider' />
+    <div>
+        <SoccerField layout='vertical' />
     </div>
   );
 });

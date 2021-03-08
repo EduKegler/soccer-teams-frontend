@@ -1,0 +1,28 @@
+.textarea { 
+    display: flex;
+    flex-direction: column-reverse;
+    width: 100%;
+}
+
+.textarea__label { 
+    margin-bottom: 0.5rem;
+    font-weight: bold;
+}
+
+.textarea__field { 
+    padding: 0.5rem;
+    border-radius: 5px;
+    border: 1px solid;
+    height: 100%;
+}
+
+.textarea:hover .textarea__field, .textarea__field:active, .textarea__field:focus { 
+    outline: none;
+    border-color: var(--primary-color);
+}
+
+.textarea:hover .textarea__label, .textarea__field:hover + .textarea__label, .textarea__field:focus + .textarea__label { 
+    color: var(--primary-color);
+    font-weight: bold;
+}
+

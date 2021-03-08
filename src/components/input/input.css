@@ -1,0 +1,27 @@
+.input { 
+    display: flex;
+    flex-direction: column-reverse;
+    width: 100%;
+    margin-bottom: 1rem;
+}
+
+.input__label { 
+    margin-bottom: 0.5rem;
+    font-weight: bold;
+}
+
+.input__field { 
+    padding: 0.5rem;
+    border-radius: 5px;
+    border: 1px solid;
+}
+
+.input:hover .input__field, .input__field:active, .input__field:focus { 
+    outline: none;
+    border-color: var(--primary-color);
+}
+
+.input:hover .input__label, .input__field:hover + .input__label, .input__field:focus + .input__label { 
+    color: var(--primary-color);
+}
+
